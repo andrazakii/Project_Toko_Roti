@@ -23,17 +23,17 @@ if(isset($_SESSION['kd_cs'])){
 		<div class="row top">
 			<center>
 				<div class="col-md-4" style="padding: 3px;">
-					<span> <i class="glyphicon glyphicon-earphone"></i> +6287804616097</span>
+					<span> <i class="glyphicon glyphicon-earphone"></i> +6285157980889</span>
 				</div>
 
 
 				<div class="col-md-4"  style="padding: 3px;">
-					<span><i class="glyphicon glyphicon-envelope"></i> rapi-cakebakery@gmail.com</span>
+					<span><i class="glyphicon glyphicon-envelope"></i> zaki-cakebakery@gmail.com</span>
 				</div>
 
 
 				<div class="col-md-4"  style="padding: 3px;">
-					<span>rapi-cake bakery Indonesia</span>
+					<span>zaki-cake bakery Indonesia</span>
 				</div>
 			</center>
 		</div>
@@ -49,7 +49,7 @@ if(isset($_SESSION['kd_cs'])){
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#" style="color: #ff8680"><b>RAPI-CAKE BAKERY</b></a>
+				<a class="navbar-brand" href="index.php" style="color: #ff8680"><b>ZAKI-CAKE BAKERY</b></a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -80,7 +80,7 @@ if(isset($_SESSION['kd_cs'])){
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-user"></i> Akun <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="user_login.php">login</a></li>
+								<li><a href="user_login.php">Login</a></li>
 								<li><a href="register.php">Register</a></li>
 							</ul>
 						</li>

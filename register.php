@@ -8,14 +8,14 @@ include 'header.php';
 		<div class="row">
 			<div class="col-md-6">
 				<div class="form-group">
-					<label for="exampleInputPassword1">Nama</label>
-					<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nama" name="nama" required>
+					<label for="namaUser">Nama</label>
+					<input type="text" class="form-control" id="namaUser" placeholder="Nama User" name="nama" required>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="form-group">
-					<label for="exampleInputPassword1">Email</label>
-					<input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email" name="email" required>
+					<label for="emailUser">Email</label>
+					<input type="email" class="form-control" id="emailUser" placeholder="Email" name="email" required>
 				</div>
 			</div>
 		</div>
@@ -23,14 +23,14 @@ include 'header.php';
 		<div class="row">
 			<div class="col-md-6">
 				<div class="form-group">
-					<label for="exampleInputPassword1">username</label>
-					<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Username" name="username" required >
+					<label for="usernameUser">Username</label>
+					<input type="text" class="form-control" id="usernameUser" placeholder="Username" name="username" required >
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="form-group">
-					<label for="exampleInputPassword1">No Tepl</label>
-					<input type="text" class="form-control" id="exampleInputPassword1" placeholder="+62" name="telp" required >
+					<label for="telpUser">No Telp</label>
+					<input type="text" class="form-control" id="telpUser" placeholder="+62" name="telp" required >
 				</div>
 			</div>
 
@@ -38,22 +38,36 @@ include 'header.php';
 
 
 		<div class="row">
-			
 			<div class="col-md-6">
 				<div class="form-group">
-					<label for="exampleInputPassword1">Password</label>
-					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password" required>
+					<label for="passUser">Password</label>
+					<input type="password" class="form-control" id="passUser" placeholder="Password" name="password" required>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="form-group">
-					<label for="exampleInputPassword1">Konfirmasi Password</label>
-					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Konfirmasi Password" name="konfirmasi" required>
+					<label for="confUser">Konfirmasi Password</label>
+					<input type="password" class="form-control" id="confUser" placeholder="Konfirmasi Password" name="konfirmasi" required>
 				</div>
 			</div>
 		</div>
+		<!-- <div id="error-message" style="color: red;"></div> -->
+		<button type="submit" class="btn btn-primary" id="submitBtn">Register</button>
 
-		<button type="submit" class="btn btn-success">Register</button>
+		<!-- <script>
+		document.getElementById('submitBtn').addEventListener('click', function(event) {
+			var password = document.getElementById('passUser').value;
+			var confirmPassword = document.getElementById('confUser').value;
+			var errorMessage = document.getElementById('error-message');
+
+			if (password !== confirmPassword) {
+				event.preventDefault();
+				errorMessage.textContent = 'Passwords do not match!';
+			} else {
+				errorMessage.textContent = '';
+			}
+		});
+		</script> -->
 	</form>
 </div>
 
